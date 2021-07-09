@@ -1,10 +1,13 @@
 import task10.Music.*;
+import task14_15.*;
 import task7.Rodent.Rodent;
 import task7.Rodent.RandomRodentGenerator;
 import task4.Abstract;
 import task4.DerivedAbstract;
 
 public class Main {
+
+
     public static void main(String[] args) {
 
         /*
@@ -74,7 +77,12 @@ public class Main {
         inheriting that into the derived class.
          */
 
+        SecondClass secondClass = new SecondClass();
 
+        SecondClass.i1(secondClass);
+        SecondClass.i2(secondClass);
+        SecondClass.i3(secondClass);
+        SecondClass.i4(secondClass);
 
 
     }
