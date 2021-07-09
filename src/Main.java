@@ -1,4 +1,4 @@
-import Music.*;
+import task10.Music.*;
 import task7.Rodent.Rodent;
 import task7.Rodent.RandomRodentGenerator;
 import task4.Abstract;
@@ -38,10 +38,10 @@ public class Main {
         }
 
         /*
-        Exercise 10: (3) Modify Musics.java by adding a Music.Playable interface. Move the play( )
-        declaration from Music.Instrument to Music.Playable. Add Music.Playable to the derived classes by
-        including it in the implement s list. Change tune( ) so that it takes a Music.Playable instead of
-        an Music.Instrument.
+        Exercise 10: (3) Modify Musics.java by adding a task10.Music.Playable interface. Move the play( )
+        declaration from task10.Music.Instrument to task10.Music.Playable. Add task10.Music.Playable to the derived classes by
+        including it in the implement s list. Change tune( ) so that it takes a task10.Music.Playable instead of
+        an task10.Music.Instrument.
          */
         System.out.println();
 
@@ -61,6 +61,21 @@ public class Main {
 
         ***********************************IN task13 PACKAGE****************************************
          */
+
+
+        /*
+        Exercise 14: (2) Create three interfaces, each with two methods. Inherit a new interface
+        that combines the three, adding a new method. Create a class by implementing the new
+        interface and also inheriting from a concrete class. Now write four methods, each of which
+
+        takes one of the four interfaces as an argument. In main( ), create an object of your class
+        and pass it to each of the methods.
+
+        Exercise 15: (2) Modify the previous exercise by creating an abstract class and
+        inheriting that into the derived class.
+         */
+
+
 
 
 

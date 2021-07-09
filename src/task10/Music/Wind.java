@@ -1,7 +1,4 @@
-package Music;
-
-import Music.Note;
-import Music.Playable;
+package task10.Music;
 
 public class Wind implements Playable, Instrument {
 

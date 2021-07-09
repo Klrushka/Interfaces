@@ -1,4 +1,4 @@
-package Music;
+package task10.Music;
 
 public class Music {
     static void tune(Playable i) {

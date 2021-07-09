@@ -1,4 +1,4 @@
-package Music;
+package task10.Music;
 
 public interface Instrument {
     // Compile time constant:

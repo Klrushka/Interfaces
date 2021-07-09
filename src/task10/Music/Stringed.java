@@ -1,4 +1,4 @@
-package Music;
+package task10.Music;
 
 public class Stringed implements Instrument, Playable {
     public void play(Note n) {
