@@ -1,6 +1,10 @@
 import task10.Music.*;
 import task14_15.*;
 import task16.RandomChars;
+import task18.AllCycles;
+import task18.BicycleFactory;
+import task18.TricycleFactory;
+import task18.UnicycleFactory;
 import task7.Rodent.Rodent;
 import task7.Rodent.RandomRodentGenerator;
 import task4.Abstract;
@@ -102,7 +106,13 @@ public class Main {
 
 
         /*
-
+        Exercise 18: (2) Create a Cycle interface, with implementations Unicycle, Bicycle
+        and Tricycle. Create factories for each type of Cycle, and code that uses these factories.
          */
+        System.out.println();
+        AllCycles.create(new UnicycleFactory());
+        AllCycles.create(new BicycleFactory());
+        AllCycles.create(new TricycleFactory());
+
     }
 }
