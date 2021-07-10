@@ -1,9 +1,12 @@
 import task10.Music.*;
 import task14_15.*;
+import task16.RandomChars;
 import task7.Rodent.Rodent;
 import task7.Rodent.RandomRodentGenerator;
 import task4.Abstract;
 import task4.DerivedAbstract;
+
+import java.util.Scanner;
 
 public class Main {
 
@@ -84,6 +87,22 @@ public class Main {
         SecondClass.i3(secondClass);
         SecondClass.i4(secondClass);
 
+        /*
+        Exercise 16: (3) Create a class that produces a sequence of chars. Adapt this class so
+        that it can be an input to a Scanner object.
+         */
 
+        System.out.println();
+
+        Scanner scanner = new Scanner(new RandomChars(10));
+
+        while (scanner.hasNext()){
+            System.out.println(scanner.next());
+        }
+
+
+        /*
+
+         */
     }
 }
