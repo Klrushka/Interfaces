@@ -10,10 +10,12 @@ public class RandomChars implements Readable {
     private int amountOfChars;
 
     public RandomChars(int count){
-        if (count < 0) {
+        /*if (count < 0) {
             System.out.println("Not a valid value");
             return;
         }
+
+         */
 
         this.сount = count;
         this.amountOfChars = count;
